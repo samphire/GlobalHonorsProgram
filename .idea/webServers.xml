@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="dd42dad2-ce27-43e6-bf2c-3e2d5a8b3bec" name="Amazon" url="http://52.192.60.185">
+        <fileTransfer host="52.192.60.185" port="22" privateKey="C:\Users\matthew\.ssh\matt_amazon.ppk" rootFolder="/var/www/html" accessType="SFTP" username="ec2-user" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

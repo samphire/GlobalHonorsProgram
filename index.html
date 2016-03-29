@@ -1,0 +1,140 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>NSU 자바프로그래밍</title>
+    <link rel="stylesheet" href="css/foundation.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+
+    <!--<script src="js/vendor/modernizr.js"></script>-->
+    <script src="js/vendor/d3.min.js"></script>
+    <script src="js/liquidFillGauge.js"></script>
+    <script src="js/main.js"></script>
+    <style type="text/css">
+        .callout {
+            border-radius: 3px;
+        }
+
+        .testsimg {
+            position: absolute;
+            left: 0;
+        }
+
+        .testimg {
+            cursor: pointer;
+            z-index: 999;
+
+        }
+
+        .im {
+            position: absolute;
+            top: 5%;
+            right: 10px;
+        "
+        }
+
+        body > img {
+            margin-bottom: 1em;
+        }
+
+        .mems {
+            font-size: large;
+        }
+        table{
+            font-size: small;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .testimg {
+                width: 65%;
+                float: right;
+            }
+
+            .im {
+                position: absolute;
+                top: 10px;
+                right: 6px;
+            "
+            }
+        }
+    </style>
+
+</head>
+<body>
+
+<img src="img/banner2.jpg" alt="">
+
+<div class="im"><img src="img/test.png" class="testimg" onclick="window.location.href='../scopic/index.php';" alt="g">
+</div>
+
+<div class="row">
+    <div class="large-12 medium-12 columns">
+
+        <div class="row">
+
+            <div class="row" style="clear: both;"></div>
+            <div class="large-8 medium-8 columns">
+                <div class="callout panel mems">
+                    <ol>
+                        <li>
+                            Tony usually sits in the first row during class, but today he is sitting in the last row.
+                        </li>
+                        <li>
+                            Yesterday I massaged my legs because they were burning. I had been exercising with a jump
+                            rope.
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="large-4 medium-4 columns">
+                <div class="callout panel">
+                    <table>
+                        <tr>
+                            <td>평카</td>
+                            <td>10%</td>
+                        </tr>
+                        <tr>
+                            <td>적극적인 협조</td>
+                            <td>10%</td>
+                        </tr>
+                        <tr>
+                            <td>문장 암기</td>
+                            <td>10%</td>
+                        </tr>
+                        <tr>
+                            <td>Lava Application 사용<br>텍스트 3개, learning list 10개</td>
+                            <td>10%</td>
+                        </tr>
+                        <tr>
+                            <td>Biweekly Test</td>
+                            <td>15%</td>
+                        </tr>
+                        <tr>
+                            <td>중간고사</td>
+                            <td>20%</td>
+                        </tr>
+                        <tr>
+                            <td>기말고사</td>
+                            <td>25%</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</div>
+
+<script src="js/vendor/jquery.min.js"></script>
+<script src="js/foundation.min.js"></script>
+<script>
+    $(document).foundation();
+</script>
+
+
+</body>
+</html>
